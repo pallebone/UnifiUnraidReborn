@@ -14,7 +14,7 @@
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/unifi-controller.xml</TemplateURL>
   <Icon>https://user-images.githubusercontent.com/11403137/277435263-1b01facd-1b15-4ba7-9495-e709c291d67f.jpg</Icon>
-  <ExtraParams>--memory=4G</ExtraParams>
+  <ExtraParams>--memory=8G</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1698084972</DateInstalled>
@@ -30,8 +30,8 @@
   <Config Name="Port: 8880" Target="8880" Default="8880" Mode="tcp" Description="Unifi guest portal HTTP redirect port" Type="Port" Display="always" Required="false" Mask="false">8880</Config>
   <Config Name="Port: 6789" Target="6789" Default="6789" Mode="tcp" Description="For mobile throughput test" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
   <Config Name="Port: 5514" Target="5514" Default="5514" Mode="udp" Description="Remote syslog port" Type="Port" Display="always" Required="false" Mask="false">5514</Config>
-  <Config Name="MEM_LIMIT" Target="MEM_LIMIT" Default="1024" Mode="{3}" Description="Optionally change the Java memory limit. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">2048</Config>
-  <Config Name="MEM_STARTUP" Target="MEM_STARTUP" Default="1024" Mode="{3}" Description="Optionally change the Java initial/minimum memory. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">1024</Config>
+  <Config Name="MEM_LIMIT" Target="MEM_LIMIT" Default="1024" Mode="{3}" Description="Optionally change the Java memory limit. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">4096</Config>
+  <Config Name="MEM_STARTUP" Target="MEM_STARTUP" Default="1024" Mode="{3}" Description="Optionally change the Java initial/minimum memory. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">2048</Config>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controllerREBORN</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
