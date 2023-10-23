@@ -13,7 +13,7 @@
   <Category>Tools:Utilities Network:Management</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/unifi-controller.xml</TemplateURL>
-  <Icon>https://user-images.githubusercontent.com/11403137/277434511-9c0cbafb-9005-47d0-9764-f6fd1ad0bc19.jpg</Icon>
+  <Icon>https://user-images.githubusercontent.com/11403137/277435263-1b01facd-1b15-4ba7-9495-e709c291d67f.jpg</Icon>
   <ExtraParams>--memory=4G</ExtraParams>
   <PostArgs/>
   <CPUset/>
