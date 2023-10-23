@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>unifi-controller-reborn</Name>
+  <Repository>11notes/unifi:7.5.187</Repository>
+  <Registry>https://github.com/pallebone/UnifiUnraidReborn/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/pallebone/UnifiUnraidReborn/issues</Support>
+  <Project>https://community.ui.com/releases</Project>
+  <Overview>The Unifi-controller(https://www.ubnt.com/enterprise/#unifi) software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.</Overview>
+  <Category>Tools:Utilities Network:Management</Category>
+  <WebUI>https://[IP]:[PORT:8443]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/unifi-controller.xml</TemplateURL>
+  <Icon>https://user-images.githubusercontent.com/11403137/277434511-9c0cbafb-9005-47d0-9764-f6fd1ad0bc19.jpg</Icon>
+  <ExtraParams>--memory=4G</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1698084972</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="Unifi web admin port" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
+  <Config Name="Port: 3478" Target="3478" Default="3478" Mode="udp" Description="Unifi STUN port" Type="Port" Display="always" Required="true" Mask="false">3478</Config>
+  <Config Name="Port: 10001" Target="10001" Default="10001" Mode="udp" Description="Required for AP discovery" Type="Port" Display="always" Required="true" Mask="false">10001</Config>
+  <Config Name="Port: 8080" Target="8080" Default="8080" Mode="tcp" Description="Required for device communication" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Port: 1900" Target="1900" Default="1900" Mode="udp" Description="Required for `Make controller discoverable on L2 network` option" Type="Port" Display="always" Required="false" Mask="false">1900</Config>
+  <Config Name="Port: 8843" Target="8843" Default="8843" Mode="tcp" Description="Unifi guest portal HTTPS redirect port" Type="Port" Display="always" Required="false" Mask="false">8843</Config>
+  <Config Name="Port: 8880" Target="8880" Default="8880" Mode="tcp" Description="Unifi guest portal HTTP redirect port" Type="Port" Display="always" Required="false" Mask="false">8880</Config>
+  <Config Name="Port: 6789" Target="6789" Default="6789" Mode="tcp" Description="For mobile throughput test" Type="Port" Display="always" Required="false" Mask="false">6789</Config>
+  <Config Name="Port: 5514" Target="5514" Default="5514" Mode="udp" Description="Remote syslog port" Type="Port" Display="always" Required="false" Mask="false">5514</Config>
+  <Config Name="MEM_LIMIT" Target="MEM_LIMIT" Default="1024" Mode="{3}" Description="Optionally change the Java memory limit. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">2048</Config>
+  <Config Name="MEM_STARTUP" Target="MEM_STARTUP" Default="1024" Mode="{3}" Description="Optionally change the Java initial/minimum memory. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">1024</Config>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controllerREBORN</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+</Container>
