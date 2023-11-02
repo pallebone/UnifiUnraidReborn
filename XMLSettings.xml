@@ -35,5 +35,5 @@
   <Config Name="Appdata" Target="/unifi/var" Default="/mnt/user/appdata/unifi-controller-reborn" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controller-reborn</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
-  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
