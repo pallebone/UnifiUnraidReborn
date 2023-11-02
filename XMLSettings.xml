@@ -32,7 +32,7 @@
   <Config Name="Port: 5514" Target="5514" Default="5514" Mode="udp" Description="Remote syslog port" Type="Port" Display="always" Required="false" Mask="false">5514</Config>
   <Config Name="MEM_LIMIT" Target="MEM_LIMIT" Default="1024" Mode="{3}" Description="Optionally change the Java memory limit. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">4096</Config>
   <Config Name="MEM_STARTUP" Target="MEM_STARTUP" Default="1024" Mode="{3}" Description="Optionally change the Java initial/minimum memory. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">2048</Config>
-  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controllerREBORN</Config>
+  <Config Name="Appdata" Target="/unifi/var " Default="" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controllerREBORN</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
