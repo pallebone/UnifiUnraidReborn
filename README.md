@@ -13,6 +13,6 @@ _Legends dont die, they just go to hell for the ride..._
 
 Also thanks to https://github.com/pallebone ; unraid page: 
 
-_Mess with the best, die like the rest_
+_Mess with the best, die like the rest._
 
 
