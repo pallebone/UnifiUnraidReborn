@@ -7,7 +7,7 @@ Unifi. Unraid. Reborn.
 Project made possible by: 
 ElevenNotes, the legend eternal:
 
-https://hub.docker.com/r/11notes/unifi/tags and https://github.com/11notes/docker-unifi
+https://hub.docker.com/r/11notes/unifi and https://github.com/11notes/docker-unifi
 
 _Legends dont die, they just go to hell for the ride..._
 
