@@ -11,7 +11,7 @@ https://hub.docker.com/r/11notes/unifi/tags and https://github.com/11notes/docke
 
 _Legends dont die, they just go to hell for the ride..._
 
-Also thanks to https://github.com/pallebone
+Also thanks to https://github.com/pallebone ; unraid page: 
 
 _Mess with the best, die like the rest_
 
