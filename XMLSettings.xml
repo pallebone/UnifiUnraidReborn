@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/pallebone/UnifiUnraidReborn/issues</Support>
-  <Project>https://community.ui.com/releases</Project>
+  <Support>https://forums.unraid.net/topic/147455-support-unifi-controller-unifi-unraid-reborn/</Support>
+  <Project>https://github.com/pallebone/UnifiUnraidReborn/issues</Project>
   <Overview>The Unifi-controller(https://www.ubnt.com/enterprise/#unifi) software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance.</Overview>
   <Category>Tools:Utilities Network:Management</Category>
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
