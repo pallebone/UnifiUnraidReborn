@@ -23,8 +23,8 @@
   <Requires>Please avoid customising this image excessivly.&#xD;
 Docker xml is still very new.&#xD;
 Many changes have not been tested yet as it is not mature.&#xD;
-Networking in bridge is reccomended.&#xD;
-Leave UID and GID and MASK values alone please.&#xD;
+Networking in bridge is reccomended. Leave UID and GID and MASK values alone please.&#xD;
+ALWAYS SEE UNRAID FORUM THREAD BEFORE UPGRADING TAGS/VERSION.&#xD;
 If you change things, and have issues, they will be relevant,&#xD;
 do not ask for help and avoid telling us what you changed, we are not Oracles. </Requires>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="Unifi web admin port" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
