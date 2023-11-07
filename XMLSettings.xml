@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unifi-controller-reborn</Name>
-  <Repository>11notes/unifi:7.5.187</Repository>
+  <Repository>11notes/unifi:7.5.187-unraid</Repository>
   <Registry>https://github.com/pallebone/UnifiUnraidReborn/</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -20,13 +20,13 @@
   <DateInstalled>1698084972</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>Before installing this docker you must set permissions on the directory it will be installed to eg:&#xD;
-mkdir /mnt/user/appdata/unifi-controller-reborn&#xD;
-chmod 777 /mnt/user/appdata/unifi-controller-reborn&#xD;
-chown nobody /mnt/user/appdata/unifi-controller-reborn&#xD;
-chgrp users /mnt/user/appdata/unifi-controller-reborn&#xD;
-Instead of these 4 commands you can also try:&#xD;
-install -d -m 777 -o 99 -g 100 /mnt/user/appdata/unifi-controller-reborn </Requires>
+  <Requires>Please avoid customising this image excessivly.&#xD;
+Docker xml is still very new.&#xD;
+Many changes have not been tested yet as it is not mature.&#xD;
+Networking in bridge is reccomended.&#xD;
+Leave UID and GID and MASK values alone please.&#xD;
+If you change things, and have issues, they will be relevant,&#xD;
+do not ask for help and avoid telling us what you changed, we are not Oracles. </Requires>
   <Config Name="WebUI" Target="8443" Default="8443" Mode="tcp" Description="Unifi web admin port" Type="Port" Display="always" Required="true" Mask="false">8443</Config>
   <Config Name="Port: 3478" Target="3478" Default="3478" Mode="udp" Description="Unifi STUN port" Type="Port" Display="always" Required="true" Mask="false">3478</Config>
   <Config Name="Port: 10001" Target="10001" Default="10001" Mode="udp" Description="Required for AP discovery" Type="Port" Display="always" Required="true" Mask="false">10001</Config>
