@@ -22,7 +22,7 @@
   <DonateLink/>
   <Requires>Please avoid customising this image excessivly.&#xD;
 Docker xml is now stable.&#xD;
-Although mature, not all cusomisations are tested.&#xD;
+Although mature, not all customisations are tested.&#xD;
 Networking in bridge is reccomended. Leave UID and GID and MASK values alone please.&#xD;
 ALWAYS SEE UNRAID FORUM THREAD BEFORE UPGRADING TAGS/VERSION.&#xD;
 If you change things, and have issues, they will be relevant,&#xD;
