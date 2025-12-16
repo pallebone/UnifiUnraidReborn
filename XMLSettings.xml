@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>unifi-controller-reborn</Name>
-  <Repository>11notes/unifi:8.6.9-unraid</Repository>
+  <Repository>11notes/unifi:10-unraid</Repository>
   <Registry>https://github.com/pallebone/UnifiUnraidReborn/</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -38,6 +38,8 @@ do not ask for help and avoid telling us what you changed, we are not oracles. <
   <Config Name="Port: 5514" Target="5514" Default="5514" Mode="udp" Description="Remote syslog port" Type="Port" Display="always" Required="false" Mask="false">5514</Config>
   <Config Name="MEM_LIMIT" Target="MEM_LIMIT" Default="1024" Mode="{3}" Description="Optionally change the Java memory limit. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">4096</Config>
   <Config Name="MEM_STARTUP" Target="MEM_STARTUP" Default="1024" Mode="{3}" Description="Optionally change the Java initial/minimum memory. Set to `default` to reset to default" Type="Variable" Display="always" Required="false" Mask="false">2048</Config>
+  <Config Name="tempfs" Target="/unifi/run" Default="/mnt/user/appdata/unifi-controller-reborn" Mode="rw" Description="Temp Data" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controller-reborn</Config>
+  <Config Name="tempfs2" Target="/unifi/log" Default="/mnt/user/appdata/unifi-controller-reborn" Mode="rw" Description="Temp Data" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controller-reborn</Config>
   <Config Name="Appdata" Target="/unifi/var" Default="/mnt/user/appdata/unifi-controller-reborn" Mode="rw" Description="All Unifi data stored here" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/unifi-controller-reborn</Config>
   <Config Name="UMASK" Target="UMASK" Default="002" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">002</Config>
 </Container>
