@@ -14,7 +14,7 @@
   <WebUI>https://[IP]:[PORT:8443]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/unifi-controller.xml</TemplateURL>
   <Icon>https://user-images.githubusercontent.com/11403137/277435263-1b01facd-1b15-4ba7-9495-e709c291d67f.jpg</Icon>
-  <ExtraParams>--memory=8G --tmpfs /unifi/log:exec,uid=1000,gid=1000 --tmpfs /unifi/run:exec,uid=1000,gid=1000</ExtraParams>
+  <ExtraParams>--memory=8G --tmpfs /unifi/log:exec,uid=99,gid=100 --tmpfs /unifi/run:exec,uid=99,gid=100</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1698084972</DateInstalled>
