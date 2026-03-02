@@ -21,8 +21,8 @@
   <DonateText/>
   <DonateLink/>
   <Requires>Upgrade from 9x to 10x is NOT trivial. CHECK FORUM BEFORE MOVING TO 10&#xD;
-Docker xml is now stable.&#xD;
-Although mature, not all customisations are tested.&#xD;
+THIS DOCKER IS DEPRECIATED AS UNIFI WANT YOU TO USE UNIFIOS.&#xD;
+CONSIDER MOVING TO UNIFI OS AND TAKING A BACKUP.&#xD;
 Networking in bridge is reccomended. Leave UID and GID and MASK values alone please.&#xD;
 ALWAYS SEE UNRAID FORUM THREAD BEFORE UPGRADING TAGS/VERSION.&#xD;
 If you change things, and have issues, they will be relevant,&#xD;
