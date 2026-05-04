@@ -1,3 +1,10 @@
+Unifi only support the unifi server on a VM now. This means this project is no longer supported, please change to the unifi way instead.
+
+
+
+
+
+
 # UnifiUnraidReborn
 Unifi. Unraid. Reborn.
 
